@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bea12625-f51c-4a6e-a98e-c15696d75fed}</ProjectGuid>
-    <RootNamespace>Day02RedNosedReports2</RootNamespace>
+    <ProjectGuid>{842714e0-60b2-4eed-8b43-0b0bf9ded0d5}</ProjectGuid>
+    <RootNamespace>Day03MullItOver1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,7 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Day02RedNosedReports2.cpp" />
+    <ClCompile Include="Day03MullItOver1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
