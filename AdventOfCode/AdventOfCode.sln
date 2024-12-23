@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day03MullItOver1", "Day03Mu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day03MullItOver2", "Day03MullItOver2\Day03MullItOver2.vcxproj", "{ED7F383F-1EF3-425C-A290-065449CAECC3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day04CeresSearch1", "Day04CeresSearch1\Day04CeresSearch1.vcxproj", "{8446A2F0-068A-465C-8590-0FF4995DEA85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Release|x64.Build.0 = Release|x64
 		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Release|x86.ActiveCfg = Release|Win32
 		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Release|x86.Build.0 = Release|Win32
+		{8446A2F0-068A-465C-8590-0FF4995DEA85}.Debug|x64.ActiveCfg = Debug|x64
+		{8446A2F0-068A-465C-8590-0FF4995DEA85}.Debug|x64.Build.0 = Debug|x64
+		{8446A2F0-068A-465C-8590-0FF4995DEA85}.Debug|x86.ActiveCfg = Debug|Win32
+		{8446A2F0-068A-465C-8590-0FF4995DEA85}.Debug|x86.Build.0 = Debug|Win32
+		{8446A2F0-068A-465C-8590-0FF4995DEA85}.Release|x64.ActiveCfg = Release|x64
+		{8446A2F0-068A-465C-8590-0FF4995DEA85}.Release|x64.Build.0 = Release|x64
+		{8446A2F0-068A-465C-8590-0FF4995DEA85}.Release|x86.ActiveCfg = Release|Win32
+		{8446A2F0-068A-465C-8590-0FF4995DEA85}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
