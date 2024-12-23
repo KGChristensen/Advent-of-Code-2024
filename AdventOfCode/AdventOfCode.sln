@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day02RedNosedReports2", "Da
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day03MullItOver1", "Day03MullItOver1\Day03MullItOver1.vcxproj", "{842714E0-60B2-4EED-8B43-0B0BF9DED0D5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day03MullItOver2", "Day03MullItOver2\Day03MullItOver2.vcxproj", "{ED7F383F-1EF3-425C-A290-065449CAECC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{842714E0-60B2-4EED-8B43-0B0BF9DED0D5}.Release|x64.Build.0 = Release|x64
 		{842714E0-60B2-4EED-8B43-0B0BF9DED0D5}.Release|x86.ActiveCfg = Release|Win32
 		{842714E0-60B2-4EED-8B43-0B0BF9DED0D5}.Release|x86.Build.0 = Release|Win32
+		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Debug|x64.ActiveCfg = Debug|x64
+		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Debug|x64.Build.0 = Debug|x64
+		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Debug|x86.Build.0 = Debug|Win32
+		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Release|x64.ActiveCfg = Release|x64
+		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Release|x64.Build.0 = Release|x64
+		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Release|x86.ActiveCfg = Release|Win32
+		{ED7F383F-1EF3-425C-A290-065449CAECC3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
