@@ -41,16 +41,21 @@ static bool detectInfiniteLoop(std::vector<std::string>& map, size_t startX, siz
 	
 	// 0 = up, 1 = right, 2 = down, 3 = left
 	size_t direction = startDirection;
-	std::set<std::string> visited;
+	//std::set<std::string> visited;
+	std::vector<bool> vis(cols * rows * 4);
 
 	while (true) {
 
-		const std::string state = std::format("{0},{1},{2}", x, y,direction);
+		//const std::string state = std::format("{0},{1},{2}", x, y,direction);
 
-		if (visited.contains(state))
+		const int hash = (x * cols + y) * 4 + direction;
+
+		//if (visited.contains(state))
+		if (vis[hash])
 			return true;
 
-		visited.insert(state);
+		//visited.insert(state);
+		vis[hash] = true;
 
 
 		const size_t nextX = x + directions[direction].dx;
@@ -108,7 +113,7 @@ int main()
 		lineIdx++;
 	}
 
-	size_t cols = map[0].length();
+	//size_t cols = map[0].length();
 	size_t rows = lineIdx;
 
 	for (size_t iIdx = 0; iIdx < rows; iIdx++) {
