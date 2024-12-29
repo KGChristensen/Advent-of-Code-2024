@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day07BridgeRepair1", "Day07
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day07BridgeRepair2", "Day07BridgeRepair2\Day07BridgeRepair2.vcxproj", "{216225F0-5BA6-488A-AA99-EB52C67505F6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day08ResonantCollinearity1", "Day08ResonantCollinearity1\Day08ResonantCollinearity1.vcxproj", "{EC226708-16EF-439D-AC4E-2A067655A46B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{216225F0-5BA6-488A-AA99-EB52C67505F6}.Release|x64.Build.0 = Release|x64
 		{216225F0-5BA6-488A-AA99-EB52C67505F6}.Release|x86.ActiveCfg = Release|Win32
 		{216225F0-5BA6-488A-AA99-EB52C67505F6}.Release|x86.Build.0 = Release|Win32
+		{EC226708-16EF-439D-AC4E-2A067655A46B}.Debug|x64.ActiveCfg = Debug|x64
+		{EC226708-16EF-439D-AC4E-2A067655A46B}.Debug|x64.Build.0 = Debug|x64
+		{EC226708-16EF-439D-AC4E-2A067655A46B}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC226708-16EF-439D-AC4E-2A067655A46B}.Debug|x86.Build.0 = Debug|Win32
+		{EC226708-16EF-439D-AC4E-2A067655A46B}.Release|x64.ActiveCfg = Release|x64
+		{EC226708-16EF-439D-AC4E-2A067655A46B}.Release|x64.Build.0 = Release|x64
+		{EC226708-16EF-439D-AC4E-2A067655A46B}.Release|x86.ActiveCfg = Release|Win32
+		{EC226708-16EF-439D-AC4E-2A067655A46B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
