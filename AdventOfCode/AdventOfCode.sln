@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day10HoofIt1", "Day10HoofIt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day10HoofIt2", "Day10HoofIt2\Day10HoofIt2.vcxproj", "{60D1C570-6A27-47F7-99F3-EEA34A20919E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day11PlutonianPebbles1", "Day11PlutonianPebbles1\Day11PlutonianPebbles1.vcxproj", "{9B4E61F7-E029-41AB-ADAE-B406C08793AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{60D1C570-6A27-47F7-99F3-EEA34A20919E}.Release|x64.Build.0 = Release|x64
 		{60D1C570-6A27-47F7-99F3-EEA34A20919E}.Release|x86.ActiveCfg = Release|Win32
 		{60D1C570-6A27-47F7-99F3-EEA34A20919E}.Release|x86.Build.0 = Release|Win32
+		{9B4E61F7-E029-41AB-ADAE-B406C08793AE}.Debug|x64.ActiveCfg = Debug|x64
+		{9B4E61F7-E029-41AB-ADAE-B406C08793AE}.Debug|x64.Build.0 = Debug|x64
+		{9B4E61F7-E029-41AB-ADAE-B406C08793AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B4E61F7-E029-41AB-ADAE-B406C08793AE}.Debug|x86.Build.0 = Debug|Win32
+		{9B4E61F7-E029-41AB-ADAE-B406C08793AE}.Release|x64.ActiveCfg = Release|x64
+		{9B4E61F7-E029-41AB-ADAE-B406C08793AE}.Release|x64.Build.0 = Release|x64
+		{9B4E61F7-E029-41AB-ADAE-B406C08793AE}.Release|x86.ActiveCfg = Release|Win32
+		{9B4E61F7-E029-41AB-ADAE-B406C08793AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
