@@ -31,6 +31,11 @@ struct velocity {
 struct robot {
 	position pos;
 	velocity vel;
+
+	bool operator<(const robot& rhs) const {
+		return rhs.pos.px < this->pos.px || (rhs.pos.px == this->pos.px && rhs.pos.py < this->pos.py);
+	}
+
 };
 
 struct cmp
@@ -50,6 +55,7 @@ int main()
 	const int wide = 101;
 	const int tall = 103;
 	std::vector<robot> robots;
+	int result = 0;
 
 	std::ifstream inputfile("input.txt");
 
@@ -67,12 +73,12 @@ int main()
 	}
 
 	int seconds = 0;
-	const int maxSeconds = 7603;
+	const int maxSeconds = 1000000;
 
 	while (seconds < maxSeconds) {
 
 		for (size_t robotIdx = 0; robotIdx < robots.size(); robotIdx++)
-		{ 
+		{
 
 			const int newPosX = robots[robotIdx].pos.px + robots[robotIdx].vel.vx;
 
@@ -84,7 +90,14 @@ int main()
 
 		}
 
-		if (seconds == (maxSeconds - 1)) {
+		std::set<robot> uniqueRobots(robots.begin(), robots.end());
+
+		if (robots.size() == uniqueRobots.size()) {
+			result = seconds + 1;
+			seconds = maxSeconds;
+		}
+
+		if (result > 0) {
 
 			for (int idxTall = 0; idxTall < tall; idxTall++) {
 				for (int idxWide = 0; idxWide < wide; idxWide++) {
@@ -101,12 +114,11 @@ int main()
 				std::cout << "\n";
 			}
 
-			std::cout << "\nSeconds: " << (seconds + 1) << "\n";
-			std::cout << std::string(wide, '_') << "\n";
 		}
 		seconds++;
 	}
 
+	std::cout << "Fewest number of seconds: " << result << "\n";
 
 	inputfile.close();
 
