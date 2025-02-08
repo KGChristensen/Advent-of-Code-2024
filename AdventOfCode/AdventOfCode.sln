@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day16ReindeerMaze2", "Day16
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day17ChronospatialComputer1", "Day17ChronospatialComputer1\Day17ChronospatialComputer1.vcxproj", "{31DD3692-A3C1-44F2-98C5-FFC0D61B3D5D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day17ChronospatialComputer2", "Day17ChronospatialComputer2\Day17ChronospatialComputer2.vcxproj", "{5D84FA74-DDDC-4AA6-B133-1F89236A7AA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{31DD3692-A3C1-44F2-98C5-FFC0D61B3D5D}.Release|x64.Build.0 = Release|x64
 		{31DD3692-A3C1-44F2-98C5-FFC0D61B3D5D}.Release|x86.ActiveCfg = Release|Win32
 		{31DD3692-A3C1-44F2-98C5-FFC0D61B3D5D}.Release|x86.Build.0 = Release|Win32
+		{5D84FA74-DDDC-4AA6-B133-1F89236A7AA1}.Debug|x64.ActiveCfg = Debug|x64
+		{5D84FA74-DDDC-4AA6-B133-1F89236A7AA1}.Debug|x64.Build.0 = Debug|x64
+		{5D84FA74-DDDC-4AA6-B133-1F89236A7AA1}.Debug|x86.ActiveCfg = Debug|Win32
+		{5D84FA74-DDDC-4AA6-B133-1F89236A7AA1}.Debug|x86.Build.0 = Debug|Win32
+		{5D84FA74-DDDC-4AA6-B133-1F89236A7AA1}.Release|x64.ActiveCfg = Release|x64
+		{5D84FA74-DDDC-4AA6-B133-1F89236A7AA1}.Release|x64.Build.0 = Release|x64
+		{5D84FA74-DDDC-4AA6-B133-1F89236A7AA1}.Release|x86.ActiveCfg = Release|Win32
+		{5D84FA74-DDDC-4AA6-B133-1F89236A7AA1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
