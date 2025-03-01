@@ -89,6 +89,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day21KeypadConundrum2", "Da
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day22MonkeyMarket1", "Day22MonkeyMarket1\Day22MonkeyMarket1.vcxproj", "{EDC2649A-41BF-4E2D-957E-E15960FD5866}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day22MonkeyMarket2", "Day22MonkeyMarket2\Day22MonkeyMarket2.vcxproj", "{C9A0EFFA-0350-46EE-B9CC-8E25713E6D4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -441,6 +443,14 @@ Global
 		{EDC2649A-41BF-4E2D-957E-E15960FD5866}.Release|x64.Build.0 = Release|x64
 		{EDC2649A-41BF-4E2D-957E-E15960FD5866}.Release|x86.ActiveCfg = Release|Win32
 		{EDC2649A-41BF-4E2D-957E-E15960FD5866}.Release|x86.Build.0 = Release|Win32
+		{C9A0EFFA-0350-46EE-B9CC-8E25713E6D4E}.Debug|x64.ActiveCfg = Debug|x64
+		{C9A0EFFA-0350-46EE-B9CC-8E25713E6D4E}.Debug|x64.Build.0 = Debug|x64
+		{C9A0EFFA-0350-46EE-B9CC-8E25713E6D4E}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9A0EFFA-0350-46EE-B9CC-8E25713E6D4E}.Debug|x86.Build.0 = Debug|Win32
+		{C9A0EFFA-0350-46EE-B9CC-8E25713E6D4E}.Release|x64.ActiveCfg = Release|x64
+		{C9A0EFFA-0350-46EE-B9CC-8E25713E6D4E}.Release|x64.Build.0 = Release|x64
+		{C9A0EFFA-0350-46EE-B9CC-8E25713E6D4E}.Release|x86.ActiveCfg = Release|Win32
+		{C9A0EFFA-0350-46EE-B9CC-8E25713E6D4E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
