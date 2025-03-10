@@ -97,6 +97,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day23LANParty2", "Day23LANP
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day24CrossedWires1", "Day24CrossedWires1\Day24CrossedWires1.vcxproj", "{64CAC027-9051-4C66-A675-D4E1274EDC5D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day24CrossedWires2", "Day24CrossedWires2\Day24CrossedWires2.vcxproj", "{572135EB-2BE4-40D7-B548-C110EFC4D437}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -481,6 +483,14 @@ Global
 		{64CAC027-9051-4C66-A675-D4E1274EDC5D}.Release|x64.Build.0 = Release|x64
 		{64CAC027-9051-4C66-A675-D4E1274EDC5D}.Release|x86.ActiveCfg = Release|Win32
 		{64CAC027-9051-4C66-A675-D4E1274EDC5D}.Release|x86.Build.0 = Release|Win32
+		{572135EB-2BE4-40D7-B548-C110EFC4D437}.Debug|x64.ActiveCfg = Debug|x64
+		{572135EB-2BE4-40D7-B548-C110EFC4D437}.Debug|x64.Build.0 = Debug|x64
+		{572135EB-2BE4-40D7-B548-C110EFC4D437}.Debug|x86.ActiveCfg = Debug|Win32
+		{572135EB-2BE4-40D7-B548-C110EFC4D437}.Debug|x86.Build.0 = Debug|Win32
+		{572135EB-2BE4-40D7-B548-C110EFC4D437}.Release|x64.ActiveCfg = Release|x64
+		{572135EB-2BE4-40D7-B548-C110EFC4D437}.Release|x64.Build.0 = Release|x64
+		{572135EB-2BE4-40D7-B548-C110EFC4D437}.Release|x86.ActiveCfg = Release|Win32
+		{572135EB-2BE4-40D7-B548-C110EFC4D437}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
